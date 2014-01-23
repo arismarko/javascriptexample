@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rectangle Generator</title>
+	    <meta charset="utf-8" />
+		<link type="text/css" rel="Stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/src/rect_new.js">
+		</script>
+		<script src="http://yui.yahooapis.com/3.7.1/build/yui/yui-min.js">
+		</script>
+	</head>
+	<body>
+		<div id="container">
+		    <h1> Rectangles Generator </h1>
+		
+			<div id="create-list-area">
+				<label>Number of Rectangles</label> <input id="rectangles-input" type="text" name="number-of-rect" />
+			</div>
+			
+			<h2> Rectangles </h2>
+			
+			<!--The area where the rectangles are going to be produced -->
+			<div id="rectangles-container">	
+			</div>
+			
+			<div class="clear"></div>
+			
+			<h2>Add Rectangle</h2>
+			<input id ="addRectangle" type="submit"  value="Add Rectangle" />	
+		</div>
+					
+		<!--Initialise the object-->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+			rectangle = new rect();				
+		/* ]]> */ 
+		</script>
+		<script type="text/javascript" src="js/test/rect-test.js">
+		</script>
+</body>
+</html>

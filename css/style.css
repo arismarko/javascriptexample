@@ -1,0 +1,93 @@
+body{
+	font-family:Arial;
+	font-size:12px;
+}
+
+.rect{
+	border:1px solid #000000;
+	width:300px;
+	height:80px;
+	float:left;
+	background-color:green;
+}
+
+.rectangle-box{
+	margin-bottom:20px;
+	clear:both;
+	margin-top:20px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.control-panel{
+    float:left;
+	margin-left:20px;
+	margin-top:10px;
+	width:100px;
+}
+
+.control-panel ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+
+.control-panel li{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.edit-screen{
+	float:left;
+	width:300px;
+	margin-top:10px;
+}
+
+.edit-screen label {
+	float:left;
+	width:35px;
+	clear:both;
+	margin:5px;
+}
+
+.edit-screen input{
+	float:left;
+	width:200px;
+	margin:5px;
+	outline:none;
+}
+
+.edit-controls{
+	float:left;
+	width:150px;
+	margin-top: 77px;
+}
+
+#rectangles-container{
+	margin-left:130px;
+}
+
+.hide{
+	display:none;
+}
+
+.cancelB{
+	margin-left:20px;
+}
+
+.yui3-widget{
+	position:absolute;
+	left:700px;
+	top:0px;
+}
+
+.yui3-console-ft{
+	display:none;
+}
+
